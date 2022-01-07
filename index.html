@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://box1620270794816.nb3.site.my-qcloud.com/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- 启用极速模式(webkit) -->
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    
+    <meta name="KeyWords" content="直播 语音交友 社交 视频聊天">
+    <meta name="description" content="直播 语音交友 社交 视频聊天">
+    <title>万物有灵交友</title>
+    <link rel="shortcut icon" type="image/x-icon" href="http://box1620270794816.nb3.site.my-qcloud.com/img/upimages/favicon.ico">
+            <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="apple-touch-fullscreen" content="yes">
+        <meta name="full-screen" content="yes">
+        <!-- SEO友好提示 -->
+    <meta name="applicable-device" content="pc,mobile">
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/js/comm/html5shiv.js"></script>
+    <script type="text/javascript" src="/js/comm/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="./觅视交友_files/jquery.min.js"></script>
+    <script type="text/javascript" src="./觅视交友_files/jquery.lazyload.min.js"></script>
+    <script type="text/javascript" src="./觅视交友_files/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="./觅视交友_files/ubox.js" charset="utf-8"></script><meta id="headScreen" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"></head><body data-new-gr-c-s-check-loaded="14.1043.0" data-gr-ext-installed="" style="width: auto;"><div style="display: none; z-index: 2147483640; top: 0px; left: 0px; position: fixed; height: 100%; width: 100%;"></div><div id="idBox" class="lightbox" style="display: none; z-index: 2147483647;">	<div id="boxMain">		<div id="boxTopTitle">			<span id="boxName">显示框</span>			<span id="boxClose" title="关闭" onclick="box.Close();">×</span>		</div>		<div id="boxContent">			<iframe id="showiframe" src="./觅视交友_files/saved_resource.html" frameborder="0" style="width:100%;" name="bookConfirm"></iframe>		</div>	</div></div>
+    <script type="text/javascript" src="./觅视交友_files/wow.js" charset="utf-8"></script>
+            <script type="text/javascript" src="./觅视交友_files/alert.js" charset="utf-8"></script>
+        <script type="text/javascript" src="./觅视交友_files/027820.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="./觅视交友_files/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./觅视交友_files/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="./觅视交友_files/box.css">
+    <link rel="stylesheet" type="text/css" href="./觅视交友_files/alert.css">
+    <link rel="stylesheet" type="text/css" href="./觅视交友_files/comm.css">
+    <link rel="stylesheet" type="text/css" href="./觅视交友_files/027820.css">
+    <script>
+        var batchArr = [];
+        var checkLoad = 0;//判断是否是回调完成的
+    </script>
+        <script>
+        var isOpenMobie = 2;
+        var isOpenPad = 2;
+        if (isOpenMobie == 1) {
+            if (isOpenPad == 1) {
+                $("body").css("width", "auto");
+            } else {
+                //是否手机端判断
+                var ua = navigator.userAgent;
+                var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+                    isIphone = !ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+                    isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+                    isMobile = isIphone || isAndroid;
+                if (isMobile) {
+                    $("body").css("width", "1280px");
+                } else {
+                    $("body").css("width", "auto");
+                }
+            }
+        } else {
+            $("body").css("width", "auto");
+            $("head").append("<meta id='headScreen' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport' />");
+        }
+        //手机屏幕尺寸兼容 purewinter 2019-03-26
+        $(window).load(function () {
+            bodyScale();
+        });
+        function bodyScale() {
+            var windowWidth = $(window).width();
+            $("#bodyScale").remove();
+            if (windowWidth < 680) {
+                var scale = windowWidth / 375;
+                $("#headScreen").remove();
+                $("head").append("<meta id='headScreen' content='width=375, initial-scale=" + scale + ", maximum-scale=" + scale + ", user-scalable=no' name='viewport' />");
+            } else if (windowWidth < 960) {
+                var scale = windowWidth / 960;
+                $("#headScreen").remove();
+                $("head").append("<meta id='headScreen' content='width=960, initial-scale=" + scale + ", maximum-scale=" + scale + ", user-scalable=no' name='viewport' />");
+            }
+        }
+        $(window).load(function () {
+            if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+                setTimeout(function () {
+                    new WOW().init()
+                }, 150)
+            }
+            ;
+        });
+        var DIY_WEBSITE_ID = "7718";
+        var DIY_JS_SERVER = "trial-admin.nb.tencentsite.com";
+    </script>
+            <script src="./觅视交友_files/login_html_v9_diy.php"></script>
+            <script src="./觅视交友_files/backscript.js"></script>
+
+
+<!--这里专门处理百度分享文章显示缩略图不正确的问题，因为百度分享读取的是第一张图片，缩略图尽量在400x400,但是至好宽高都要大于400，前提是具有微信分享功能，图片地址通过jq传入 $(".baiduImg").attr("src",shareImg);-->
+<div class="baiduImgSet" style="display: none;">
+    <img class="baiduImg" src="http://box1620270794816.nb3.site.my-qcloud.com/">
+</div>
+    <script type="text/javascript">var Default_isFT = 0;</script>
+<!--<script type="text/javascript" src="./觅视交友_files/transform.js"></script>-->
+            <div id="comm_layout_header" class="layout  none" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div class="view_contents">
+                                <div id="image_logo_1620271435809" class="view logo image  none" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="image" class="view_contents">
+                    <div class="logoStyle modSet">
+<a href="" target="_self"><img class="imgSet" src="./觅视交友_files/logo.png" title="官网" alt="官网" style="width:100%; height:auto"></a>
+</div>                </div>
+            </div>
+                            </div>
+            </div>
+                        <div id="layout_1602658959723" class="layout  none" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div class="view_contents">
+                                <div id="text_style_01_1602659017139" class="view style_01 text  none wow bounceInLeft lockHeightView animated" data-wow-duration="1s" data-wow-delay="0.25s" data-wow-offset="0" data-wow-iteration="1" style="visibility: visible; animation-duration: 1s; animation-delay: 0.25s; animation-iteration-count: 1; animation-name: bounceInLeft;">
+                <div names="text" class="view_contents">
+                    万物有灵                </div>
+            </div>
+                        <div id="text_style_01_1602659093759" class="view style_01 text  none wow bounceInLeft lockHeightView animated" data-wow-duration="1s" data-wow-delay="0.25s" data-wow-offset="0" data-wow-iteration="1" style="visibility: visible; animation-duration: 1s; animation-delay: 0.25s; animation-iteration-count: 1; animation-name: bounceInLeft;">
+                <div names="text" class="view_contents">
+                    是一款基于短视频内容的泛娱乐社交平台。
+全方位融入直播、聊天室、社交游戏、购物商城等元素，建立了沉浸式、场景化的新社交方式。通过实时视频语音互动解决陌生人社交破冰的真实社交产品。&nbsp;                </div>
+            </div>
+                        <div id="text_style_01_1602659135583" class="view style_01 text  none wow bounceInLeft lockHeightView animated" data-wow-duration="1s" data-wow-delay="0.25s" data-wow-offset="0" data-wow-iteration="1" style="visibility: visible; animation-duration: 1s; animation-delay: 0.25s; animation-iteration-count: 1; animation-name: bounceInLeft;">
+                <div names="text" class="view_contents">
+                    <a href="https://h5.nbhaochang.com/invite?invite_code=Y14158" target="_blank" style="color:inherit" class="editor-view-extend link-type-5-">立即下载</a>                </div>
+            </div>
+                            </div>
+            </div>
+                        <div id="layout_1602664290829" class="layout  none" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div class="view_contents">
+                                <div id="text_style_01_1602664417928" class="view style_01 text  none wow bounceIn lockHeightView animated" data-wow-duration="1s" data-wow-delay="0.25s" data-wow-offset="0" data-wow-iteration="1" style="visibility: visible; animation-duration: 1s; animation-delay: 0.25s; animation-iteration-count: 1; animation-name: bounceIn;">
+                <div names="text" class="view_contents">
+                    语音交友                </div>
+            </div>
+                        <div id="text_style_01_1620276853807" class="view style_01 text  lockHeightView" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="text" class="view_contents">
+                    虚拟恋人、交友、陪伴、点唱、看电影、电台超多玩法，满足多人一起语音互动。                </div>
+            </div>
+                        <div id="image_style_03_1620276940509" class="view style_03 image  none" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="image" class="view_contents">
+                    <div class="imgStyle_3 CompatibleImg modSet imgStyle">
+			<img class="imgSet" src="./觅视交友_files/16202754765183a220004b7106964.png" title="" alt="描述" id="imageModeShow">
+			<div class="tipsText">
+				<div class="content">
+					<span class="title titleSet">描述</span>
+				</div>
+			</div>
+</div>
+<!-- 新加的js  -->
+                </div>
+            </div>
+                        <div id="image_style_03_1620277066769" class="view style_03 image  none" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="image" class="view_contents">
+                    <div class="imgStyle_3 CompatibleImg modSet imgStyle">
+			<img class="imgSet" src="./觅视交友_files/1620277106720129709ee14d013be.png" title="" alt="描述" id="imageModeShow">
+			<div class="tipsText">
+				<div class="content">
+					<span class="title titleSet">描述</span>
+				</div>
+			</div>
+</div>
+<!-- 新加的js  -->
+                </div>
+            </div>
+                            </div>
+            </div>
+                        <div id="layout_1602665059345" class="layout  none" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1" style="height: 874px;">
+                <div class="view_contents">
+                                <div id="text_style_01_1620277493557" class="view style_01 text  none wow bounceIn lockHeightView" data-wow-duration="1s" data-wow-delay="0.25s" data-wow-offset="0" data-wow-iteration="1" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.25s; animation-iteration-count: 1; animation-name: none;">
+                <div names="text" class="view_contents">
+                    视频畅聊                </div>
+            </div>
+                        <div id="text_style_01_1620277545490" class="view style_01 text  lockHeightView" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="text" class="view_contents">
+                    是通过一对一视频聊天方式交友，解决年轻人的社交需求。通过与陌生人交流，在参与互动中，忘记自己是一个人，忘记孤独，得到精神的认同和满足，又能放松压力，扩充自己的社交圈子。随时随地，有一个人陪伴着你每个需要温暖的瞬间。                </div>
+            </div>
+                        <div id="image_style_03_1620277646548" class="view style_03 image  none" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="image" class="view_contents">
+                    <div class="imgStyle_3 CompatibleImg modSet imgStyle">
+			<img class="imgSet" src="./觅视交友_files/162027770972415408b88a412b762.png" title="" alt="描述" id="imageModeShow">
+			<div class="tipsText">
+				<div class="content">
+					<span class="title titleSet">描述</span>
+				</div>
+			</div>
+</div>
+<!-- 新加的js  -->
+                </div>
+            </div>
+                            </div>
+            </div>
+                        <div id="layout_1620278237652" class="layout " data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div class="view_contents">
+                                <div id="image_style_01_1620278248171" class="view style_01 image " data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="image" class="view_contents">
+                    <div class="imgStyle CompatibleImg picSet">
+			<img class="link-type-" src="./觅视交友_files/16202783301552516ee3766faab5c.png" title="" alt="描述" id="imageModeShow">
+</div>
+<!-- 新加的js  -->
+                </div>
+            </div>
+                            </div>
+            </div>
+                        <div id="layout_1602667647523" class="layout  none" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div class="view_contents">
+                                <div id="text_style_01_1602667647525" class="view style_01 text  none wow bounceIn lockHeightView" data-wow-duration="1s" data-wow-delay="0.25s" data-wow-offset="0" data-wow-iteration="1" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.25s; animation-iteration-count: 1; animation-name: none;">
+                <div names="text" class="view_contents">
+                    公司简介                </div>
+            </div>
+                        <div id="div_blank_new01_1602667647538" class="view blank_new01 div  none wow bounceIn" data-wow-duration="1s" data-wow-delay="0.25s" data-wow-offset="0" data-wow-iteration="1" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.25s; animation-iteration-count: 1; animation-name: none;">
+                <div names="div" class="view_contents">
+                    <div class="blank_new01">
+<div class="roundcs modSet"></div>
+</div>
+                </div>
+            </div>
+                        <div id="text_style_01_1602667647543" class="view style_01 text  none wow bounceIn lockHeightView" data-wow-duration="1s" data-wow-delay="0.25s" data-wow-offset="0" data-wow-iteration="1" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.25s; animation-iteration-count: 1; animation-name: none;">
+                <div names="text" class="view_contents">
+                    Company Profile                </div>
+            </div>
+                            </div>
+            </div>
+                        <div id="layout_1602667729315" class="layout  none" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1" style="height: 180px;">
+                <div class="view_contents">
+                                <div id="text_style_01_1602667923708" class="view style_01 text  none wow fadeIn lockHeightView" data-wow-duration="1s" data-wow-delay="0.25s" data-wow-offset="0" data-wow-iteration="1" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.25s; animation-iteration-count: 1; animation-name: none;">
+                <div names="text" class="view_contents">
+                    万物有灵是象山县石浦海派水产品旗下产品，成立于2020年11月，2021年3月正式上线。万物有灵是觅视文化围绕社交打造的社交平台，以社交为主题，视频秀、才艺表演为补充的全媒体覆盖平台。一陌全新的互动频道以社交为主，涵盖了单播、视频、娱乐等多种内容，以“怕寂寞，来觅视”作为宣传口号，深耕视频社交领域，为真正热爱聊天的用户带来各类精彩内容。                </div>
+            </div>
+                        <div id="text_style_01_1602667979854" class="view style_01 text  none wow fadeIn lockHeightView" data-wow-duration="1s" data-wow-delay="0.25s" data-wow-offset="0" data-wow-iteration="1" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.25s; animation-iteration-count: 1; animation-name: none;">
+                <div names="text" class="view_contents">
+                    <a href="http://box1620270794816.nb3.site.my-qcloud.com/" target="_self" style="color:inherit" class="editor-view-extend link-type-1-">查看更多</a>                </div>
+            </div>
+                            </div>
+            </div>
+                        <div id="image_style_01_1598194990856" class="view style_01 image  none" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="image" class="view_contents">
+                    <div class="imgStyle CompatibleImg picSet">
+		<a href="javascript:btnTop();" target="">
+			<img class="link-type-" src="./觅视交友_files/16027649767836ca98f051af12563.png" title="" alt="top" id="imageModeShow">
+		</a>
+</div>
+<!-- 新加的js  -->
+                </div>
+            </div>
+                        <div id="layout_1602293596471" class="layout  none" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div class="view_contents">
+                                    </div>
+            </div>
+                        <div id="comm_layout_footer" class="layout  none" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div class="view_contents">
+                                <div id="text_style_01_1574335070384" class="view style_01 text  none lockHeightView" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="text" class="view_contents">
+                    Copyright @ 2019-2022 象山县石浦海派水产品  All rights reserved                </div>
+            </div>
+                        <div id="div_a_includeBlock_1598062528215" class="view a_includeBlock div  none includeView" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="div" class="view_contents">
+                                <div id="div_a_includeBlock_1598062731384" class="view a_includeBlock div  none includeView" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="div" class="view_contents">
+                                <div id="text_style_01_1598062892892" class="view style_01 text  none lockHeightView" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="text" class="view_contents">
+                    <div>邮箱：yormo@qq.com<div>地址：浙江省宁波市鄞州区</div></div>                </div>
+            </div>
+                        <div id="image_logo_1602669101903" class="view logo image  none" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="image" class="view_contents">
+                    <div class="logoStyle modSet">
+<a href="http://box1620270794816.nb3.site.my-qcloud.com/" target="_self"><img class="imgSet" src="./觅视交友_files/logo(1).png" title="官网" alt="官网" style="width:auto; height:100%; margin-left:0px"></a>
+</div>                </div>
+            </div>
+                            </div>
+            </div>
+                        <div id="div_a_includeBlock_1598063367704" class="view a_includeBlock div  none includeView" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="div" class="view_contents">
+                                <div id="text_style_01_1598063368038" class="view style_01 text  none lockHeightView" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="text" class="view_contents">
+                    网站导航                </div>
+            </div>
+                        <div id="footerCustom_footerDh_01_1602669751042" class="view footerDh_01 footerCustom  none lockHeightView" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="footerCustom" class="view_contents">
+<div id="menu" class="menu footerCustom_01">
+	<div class="menuLayout">
+		<div class="menuUl_box columnSet dhAreaSet showpc">
+			<ul class="menuUl dflex maxWidth ">
+						<li class="rflex isLi" pageid="27820" showpc="">
+							<a class="mainMenuSet Nosub" href="http://box1620270794816.nb3.site.my-qcloud.com/index.html">
+								网站首页
+							</a>
+						</li>
+			</ul>
+		</div>
+		<div class="menuUl_box columnSet dhAreaSet showmobile" style="display: none;">
+			<ul class="menuUl dflex maxWidth ">
+							<li id="hot" class="rflex isLi" pageid="27820" showpc="">
+							<a class="mainMenuSet Nosub" href="http://box1620270794816.nb3.site.my-qcloud.com/index.html">
+								网站首页
+							</a>
+						</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- 导航栏目有下级时禁止跳转 -->
+<script>
+$(function(){
+	if($("#footerCustom_footerDh_01_1602669751042 .menuUl").hasClass("noHover")){
+		var tabNum = 0;
+		$("#footerCustom_footerDh_01_1602669751042 .menuUl>li").find(".Onsub").each(function(){
+			tabNum += 1;
+			$(this).parent().attr("tabNum",tabNum)
+		})
+	}
+})
+</script>
+<!-- 每行显示列数 -->
+<!--  -->
+<script>
+/*pc,手机显示隐藏*/
+function is_mobile(){
+	return window.screen.width<767 || ($('body').width() > 0 && $('body').width() < 767);
+}
+function _checkWindwo(){
+	if(is_mobile()){
+		$("#footerCustom_footerDh_01_1602669751042 .showmobile").show();
+		$("#footerCustom_footerDh_01_1602669751042 .showpc").hide();
+	}else{
+		$("#footerCustom_footerDh_01_1602669751042 .showmobile").hide();
+		$("#footerCustom_footerDh_01_1602669751042 .showpc").show();
+	}
+}
+_checkWindwo();
+$(window).resize(function() {
+	_checkWindwo();
+})
+</script>
+                </div>
+            </div>
+                            </div>
+            </div>
+                        <div id="div_a_includeBlock_1598063423605" class="view a_includeBlock div  none includeView" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="div" class="view_contents">
+                                <div id="image_style_01_1574334892663" class="view style_01 image  none" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="image" class="view_contents">
+                    <div class="imgStyle CompatibleImg picSet">
+			<img class="link-type-" src="./觅视交友_files/1620279038480c8ba8605d8ef6936.jpg" title="" alt="code" id="imageModeShow">
+</div>
+<!-- 新加的js  -->
+                </div>
+            </div>
+                        <div id="text_style_01_1598063423901" class="view style_01 text  none lockHeightView" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="text" class="view_contents">
+                    扫码二维码                </div>
+            </div>
+                            </div>
+            </div>
+                            </div>
+            </div>
+                        <div id="div_blank_new01_1598063798837" class="view blank_new01 div  none" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="div" class="view_contents">
+                    <div class="blank_new01">
+<div class="roundcs modSet"></div>
+</div>
+                </div>
+            </div>
+                        <div id="qqol_style_05_1599142497028" class="view style_05 qqol  none lockHeightView" data-wow-duration="0s" data-wow-delay="0s" data-wow-offset="0" data-wow-iteration="1">
+                <div names="qqol" class="view_contents">
+                    <div class="online-service onlineStyle05">
+    <div class="main_box">
+        <div class="box_main_content">
+            <div class="item_box contact">
+                <div class="item">
+                    <div class="img phone_icon"></div>
+                    <div class="text">联系方式</div>
+                </div>
+                <div class="show_box">
+                    <div class="contant">
+                        <ul>
+                            <div class="title">联系方式</div>
+                            <li class="li_item">
+                                <div class="icon"><div class="img list_phone_icon"></div></div>
+                                <div class="text_contant">
+                                        <div>电话：<a href="tel:400-000-0000">400-000-0000</a></div>
+                                        <div>电话：<a href="tel:400-000-0000">400-000-0000</a></div>
+                                </div>
+                            </li>
+                            <li class="li_item">
+                                <div class="icon"><div class="img list_wx_icon"></div></div>
+                                <div class="text_contant">
+                                </div>
+                            </li>
+                            <li class="li_item">
+                                <div class="icon"><div class="img list_qq_icon"></div></div>
+                           
+                            </li>
+                            <li class="li_item">
+                                <div class="icon"><div class="img list_mail_icon"></div></div>
+                                <div class="text_contant">
+                                        <div>邮箱：yormo@qq.com</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="interval"></div>
+            <!-- 时间 -->
+            <div class="item_box time">
+                <div class="item">
+                    <div class="img time_icon"></div>
+                </div>
+                <div class="show_box">
+                    <div class="contant">周一至周五 8:00 - 20:00</div>
+                </div>
+            </div>
+            <div class="interval"></div>
+            <!-- 二维码 -->
+            <div class="item_box qrcode">
+                <div class="item">
+                    <div class="img qr_icon"></div>
+                </div>
+           
+            </div>
+            <div class="interval"></div>
+            <!-- 购物车 -->
+            <!-- 返回顶部 -->
+            <div class="item_box backup">
+                <div class="item">
+                    <div class="img backup_icon"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="application/javascript">
+    // 对输入内容中的尖括号、引号等进行转义
+    function html_encode(str) {
+        var s = "";
+        if (str.length == 0) return "";
+        s = str.replace(/&/g, "&amp;");
+        s = s.replace(/</g, "&lt;");
+        s = s.replace(/>/g, "&gt;");
+        s = s.replace(/ /g, "&nbsp;");
+        s = s.replace(/\'/g, "&#39;");
+        s = s.replace(/\"/g, "&quot;");
+        s = s.replace(/\n/g, "<br>");
+        return s;
+    }
+    function html_decode(str) {
+        var s = "";
+        if (str.length == 0) return "";
+        s = str.replace(/&amp;/g, "&");
+        s = s.replace(/&lt;/g, "<");
+        s = s.replace(/&gt;/g, ">");
+        s = s.replace(/&nbsp;/g, " ");
+        s = s.replace(/&#39;/g, "\'");
+        s = s.replace(/&quot;/g, "\"");
+        s = s.replace(/<br>/g, "\n");
+        return s;
+    }
+</script>
+    <script>
+        $('#qqol_style_05_1599142497028 .item_box.backup').click(function(){
+            $('html , body').animate({scrollTop: 0},'slow');
+        });
+</script>
+<script>
+    //购物车
+    if(typeof showcart !== 'function'){
+        function showcart(){
+            var langid = 0;
+            if (langid==0 && BodyIsFt) langid = 1;
+            if(window.screen.width<767 || ($('body').width() > 0 && $('body').width() < 767)){
+                location.href = "https://trial-admin.nb.tencentsite.com/exusers/u_cart.php?idweb=7718&act=show&lang="+langid+"&ismobile=1";
+            }else{
+                document.getElementById("boxName").innerHTML="查看购物车";
+                if(document.getElementById("boxClose")) document.getElementById("boxClose").innerHTML="×";
+                document.getElementById("showiframe").src="https://trial-admin.nb.tencentsite.com/exusers/u_cart.php?idweb=7718&act=show&lang="+langid+"&v=9";
+                box.Show({width:'1000px', height:'600px'});
+            }
+        }
+    }
+    //判断是否是手机,用于处理QQ电脑端及手机端链接不一致问题
+    var mobile_flag = isMobile();
+    if(mobile_flag){
+                $('#qqol_style_05_1599142497028 .qq_pc').hide();
+        $('#qqol_style_05_1599142497028 .qq_mobile').show();
+            }
+    function isMobile() {
+        var userAgentInfo = navigator.userAgent;
+        var mobileAgents = [ "Android", "iPhone", "SymbianOS", "Windows Phone", "iPad","iPod"];
+        var mobile_flag = false;
+        //根据userAgent判断是否是手机
+        for (var v = 0; v < mobileAgents.length; v++) {
+            if (userAgentInfo.indexOf(mobileAgents[v]) > 0) {
+                mobile_flag = true;
+                break;
+            }
+        }
+        var screen_width = window.screen.width;
+        var screen_height = window.screen.height;
+        //根据屏幕分辨率判断是否是手机
+        if(screen_width < 500 && screen_height < 800){
+            mobile_flag = true;
+        }
+        return mobile_flag;
+    }
+</script>                </div>
+            </div>
+                            </div>
+            </div>
+            <script>
+    $(function () {
+        sendBatch(batchArr);
+    });
+</script>
+<script type="text/javascript" src="./觅视交友_files/027820_user.js" charset="utf-8"></script>
+<script type="text/javascript" src="./觅视交友_files/js.js" charset="utf-8"></script>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
